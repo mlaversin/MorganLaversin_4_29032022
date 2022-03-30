@@ -6,5 +6,5 @@ This fourth project of my training program consists in optimizing the SEO and th
 
 ## Versions :
 
-- branch main : the optimized website
-- branch old : the website before optimization
+- branch [main](https://github.com/mlaversin/MorganLaversin_4_29032022) : the optimized website
+- branch [old](https://github.com/mlaversin/MorganLaversin_4_29032022/tree/old) : the website before optimization
