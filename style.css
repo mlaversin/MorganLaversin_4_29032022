@@ -349,6 +349,10 @@ a:hover {
   background: transparent !important;
 }
 
+.navbar-toggle:focus {
+  border: 2px solid black;
+}
+
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
@@ -461,10 +465,6 @@ nav .caret {
 .btn-d:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-  outline: none !important;
 }
 
 .btn-rd {
