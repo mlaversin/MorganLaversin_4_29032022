@@ -565,6 +565,12 @@ a[data-lightbox]:hover img {
   animation-fill-mode: none;
 }
 
+@media screen and (max-width: 390px) {
+  .lightbox-caption {
+  font-size: 12px;
+}
+}
+
 #lightbox-modal {
   display: flex;
   align-items: center;
