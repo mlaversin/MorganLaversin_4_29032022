@@ -48,7 +48,7 @@ a:hover {
 }
 
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 80px 50px;
 }
 
 .bloc-md {
@@ -728,7 +728,6 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 
-
 h4 {
   color: #333333 !important;
 }
@@ -740,7 +739,7 @@ h4 {
 
 .white {
   color: #ffffff !important;
-    text-shadow: 0px 0px 4px black;
+  text-shadow: 0px 0px 4px black;
 }
 
 .dark {
@@ -767,7 +766,6 @@ h4 {
 
 #bloc-6 p {
   font-size: 19px;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -840,21 +838,42 @@ h4 {
   border-color: #364577 !important;
 }
 
-.bg-dots-bg {
-  /* background-image: url("img/dots-bg.png"); */
-  background-image: url("img/agence-la-panthere.webp");
-}
-
-/* .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
-} */
-
 .bg-banniere {
-  background-image: url("img/agence-la-panthere.webp");
+  background-image: url("img/agence-la-panthere-2560w.webp");
+}
+@media screen and (max-width: 1919px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-1920w.webp");
+  }
+}
+@media screen and (max-width: 991px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-992w.webp");
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-768w.webp");
+  }
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.webp");
+  background-image: url("img/image-de-presentation-2560w.webp");
+}
+@media screen and (max-width: 1919px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-1920w.webp");
+  }
+}
+@media screen and (max-width: 991px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-992w.webp");
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-768w.webp");
+  }
 }
 
 @media (max-width: 1024px) {
@@ -918,6 +937,9 @@ h4 {
     padding: 0 20px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+   .bloc-lg {
+    padding: 50px 0;
   }
 }
 
@@ -1012,7 +1034,7 @@ h4 {
   .bloc-xxl,
   .bloc-xl,
   .bloc-lg {
-    padding: 40px 0;
+    padding: 30px 0;
   }
   .bloc-sm,
   .bloc-md {
@@ -1071,7 +1093,8 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
-  #bloc-1-hero h1, #bloc-6 h1 {
+  #bloc-1-hero h1,
+  #bloc-6 h1 {
     font-size: 32px;
   }
   #bloc-6 p {
@@ -1079,5 +1102,17 @@ h4 {
   }
   .black-background {
     padding: 30px 10px;
+  }
+}
+@media (max-width: 350px) {
+  #bloc-1-hero h1,
+  #bloc-6 h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #bloc-8 p {
+    font-size: 12px;
   }
 }
